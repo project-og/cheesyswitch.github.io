@@ -16,11 +16,12 @@ footer {
   background: #000000;
   color: white;
   font-size: 18px;
-  height: auto;
+  display: block;
 }
 .headeritem {
   padding-left: 10px;
   padding-top: 10px;
+    font-family: 'Comic Sans MS';
 }
 
 img.logo {
