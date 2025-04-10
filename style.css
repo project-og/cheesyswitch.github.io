@@ -42,6 +42,11 @@ li {
   font-family: 'Comic Sans MS';
 }
 
+.black {
+  color: black;
+  font-family: 'Comic Sans MS';
+}
+
 .normallink {
   font-family: 'Comic Sans MS';
   color: lightskyblue;
@@ -96,6 +101,9 @@ li {
 }
 .container > div.content {
   grid-area: content;
+	color: black;
+  font-family: 'Comic Sans MS';
+`
 }
 .container > div.footer {
   grid-area: footer;
