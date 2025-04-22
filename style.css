@@ -12,15 +12,16 @@ header {
   font-size: 18px;
   height: auto;
 }
+
 footer {
   background: #000000;
   color: white;
   font-size: 18px;
   display: block;
 }
+
 .headeritem {
-	color: ight
-    font-family: 'Comic Sans MS';
+  font-family: 'Comic Sans MS';
 }
 
 img.logo {
@@ -83,30 +84,70 @@ li {
     "footer footer";
   grid-template-columns: 3fr 3fr;
   gap: 5px;
-  background-color: #2196F3;
+  background-color: black;
   padding: 5px;
-  
+
   transform: scale(0.6, 0.6);
 }
-.container > div {
+
+.container>div {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
 }
-.container > div.header {
+
+.container>div.header {
   grid-area: header;
   text-align: center;
 }
-.container > div.menu {
+
+.container>div.menu {
   grid-area: menu;
 }
-.container > div.content {
+
+.container>div.content {
   grid-area: content;
-	color: black;
-  font-family: 'Comic Sans MS';
-`
+  color: black;
 }
-.container > div.footer {
+
+.container>div.footer {
   grid-area: footer;
 }
 
+.dropdown {
+  display: inline-block;
+}
 
+.dropdown button {
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.dropdown .content {
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
+.dropdown:hover button {
+  background-color: hsl(0, 0%, 70%);
+}
+
+.dropdown a:hover {
+  background-color: hsl(0, 0%, 90%);
+}
