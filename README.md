@@ -1,2 +1,2 @@
 # Website Project
-[The site](https://poop-bg.github.io/cheesyswitch.github.io/)
+[The site](https://project-og-github.io/cheesyswitch.github.io/)
